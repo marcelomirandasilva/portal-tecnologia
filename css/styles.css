@@ -1,0 +1,127 @@
+body { background: #3E276B; }
+
+.x_panel { color: #856CB8; }
+
+.nav-md .container.body .right_col
+{
+	margin-left: 0px !important;
+}
+
+body .container.body .right_col {
+    background: #3E276B;
+}
+
+.pricing .title
+{
+	background: none;
+	height: 170px;
+}
+
+.pricing.trabalho 
+{
+    background: url(../img/trabalho.png);
+    background-size: 110%;
+    background-position: 50% -40%;
+    transition: background-position 0.3s ease-in-out;
+}
+
+.pricing.habitacao
+{
+    background: url(../img/habitacao.png);
+    background-size: 110%;
+    background-position: 50% -40%;
+    transition: background-position 0.3s ease-in-out;
+}
+
+.pricing.trabalho:hover,
+.pricing.habitacao:hover
+{
+    background-position: 50% 30%;
+}
+
+.pricing_features 
+{ 
+	min-height: 0px; 
+	background: none;
+}
+
+.pricing_footer
+{
+	background: none;
+	border-top: none;
+}
+
+/****************************************************** Botão Customizado  */
+
+.btn-roxo { 
+  color: #FFFFFF; 
+  background-color: #856CB8; 
+  border-color: #3E276B; 
+} 
+ 
+.btn-roxo:hover, 
+.btn-roxo:focus, 
+.btn-roxo:active, 
+.btn-roxo.active, 
+.open .dropdown-toggle.btn-roxo { 
+  color: #FFFFFF; 
+  background-color: #3E276B; 
+  border-color: #3E276B; 
+} 
+ 
+.btn-roxo:active, 
+.btn-roxo.active, 
+.open .dropdown-toggle.btn-roxo { 
+  background-image: none; 
+} 
+ 
+.btn-roxo.disabled, 
+.btn-roxo[disabled], 
+fieldset[disabled] .btn-roxo, 
+.btn-roxo.disabled:hover, 
+.btn-roxo[disabled]:hover, 
+fieldset[disabled] .btn-roxo:hover, 
+.btn-roxo.disabled:focus, 
+.btn-roxo[disabled]:focus, 
+fieldset[disabled] .btn-roxo:focus, 
+.btn-roxo.disabled:active, 
+.btn-roxo[disabled]:active, 
+fieldset[disabled] .btn-roxo:active, 
+.btn-roxo.disabled.active, 
+.btn-roxo[disabled].active, 
+fieldset[disabled] .btn-roxo.active { 
+  background-color: #856CB8; 
+  border-color: #3E276B; 
+} 
+ 
+.btn-roxo .badge { 
+  color: #856CB8; 
+  background-color: #FFFFFF; 
+}
+
+/****************************************************** /Botão Customizado  */
+
+.page-title
+{
+  height: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.x_title { text-align: center; }
+.x_title h2 { float: none; }
+
+span.centro {
+    display: inline-block;
+}
+
+.wrp-trabalho {
+    float: left;
+    margin-left: 31px;
+    width: 281px;
+}
+
+span.sobre {
+    color: #fff;
+    font-size: 9px;
+}
