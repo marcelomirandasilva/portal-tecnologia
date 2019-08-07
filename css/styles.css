@@ -41,9 +41,18 @@ body .container.body .right_col {
     transition: background-position 0.3s ease-in-out;
 }
 
+.pricing.sisrel
+{
+    background: url(../img/sisrel.png);
+    background-size: 110%;
+    background-position: 50% -40%;
+    transition: background-position 0.3s ease-in-out;
+}
+
 .pricing.trabalho:hover,
 .pricing.habitacao:hover,
-.pricing.sgf:hover
+.pricing.sgf:hover,
+.pricing.sisrel:hover
 {
     background-position: 50% 30%;
 }
